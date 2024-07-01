@@ -5,8 +5,8 @@ me=`basename "$0"`
 #aleczdr
 VER="1.14"
 VOLUME="hpscans"
-NETPATH="r:pw@rpisecurity.local/$VOLUME"
-#WEBPATH="http://readyshare.routerlogin.net/shares/$VOLUME/"
+NETPATH="user:pw@domain.local/$VOLUME"
+WEBPATH="http://readyshare.routerlogin.net/shares/$VOLUME/"
 VOLPATH="/Volumes/$VOLUME"
 #auto
 # line 11 is the setting that disables or enables the mount-at-launch feature. it bypasses the menu. values are #dumb, #notdumb, #auto, and #web
